@@ -1,1 +1,65 @@
 
+<html>
+<head>
+  <title> Courtney Merrin </title>
+  <style>
+        .container {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+    </style>
+</head>
+	<body style="background-color: white; text-align: center; font-family:Arial; color: black";> 
+	<div class="container">
+	 	<h1 id="myHeader" onmouseover="go()">Hello World! My name is Courtney! </h1>
+  		<p><b> I am pursuing a major in:</b> <br> <br>
+  			 Computer Science / Data Engineering <br><br>
+   		<img src="https://i.imgur.com/Bx1u2aL.png"/>
+   		</p>
+   		<p> <b>See my work here:</b>
+   			 <a href="https://web.cs.kent.edu/~cmerrin1/myLabWork.html"> My Lab Work </a>
+ 		</p>
+ 		<p> <b>My favorite website is instagram:</b>
+			<a href="https://www.instagram.com/courtneymerrin/?hl=en"> CourtneyMerrin </a>
+  		</p>
+  		<p> <b>Someday I will travel to:</b>
+			<ul style="text-align: center;list-style-position: inside">
+				<li> Spain </li>
+				<li> Iceland </li>
+				<li> New Zealand </li>
+			</ul>
+		</p>
+		<p><b> Top 3 most-played songs on my iPhone this month:</b>
+			<ol style="text-align: center;list-style-position: inside">
+				<li> Rainbow Connection by The Muppet's </li>
+				<li> In Cold Blood by Alt-J </li>
+				<li> God's Plan by Drake </li>
+			</ol>
+  		</p>
+   		<p>
+		<h2 id="classSchedule"> Course Schedule Fall 2018 </h2>
+		<hr/>
+     		<table> 
+				<tr>
+					<th> Course Name: </th>
+						<td> College Writing 2 </td>
+						<td> Intro to CompSci </td>
+						<td> Geology </td>
+				</tr>
+				<tr>
+						<th> Day/Time: </th>
+						<td> Tues/Thurs 7:45am-9:00am </td>
+						<td> Tues/Thurs 5:30pm-8pm </td>
+						<td> Wednesday's 8:55am-10:30am </td>
+				</tr>
+      		</table>
+		</p>
+	</div>
+<script>
+function go() {
+    document.getElementById("myHeader").style.color = "675651";
+    document.getElementById("classSchedule").style.color = "675651";
+    }
+</script>
+</body>
+</html>
