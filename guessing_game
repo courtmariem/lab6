@@ -1,1 +1,26 @@
 <html>
+<head>
+	<title> Guessing Game </title>
+</head>
+<body>
+	<h2 style="color: 586242"> Let's play a game! </h2>
+	<p style="color:053C48"> 
+		Can you guess the number, between 1-10 that I'm thinking of? 
+	</p>
+	<p> 
+		Enter your guess in this box: 
+		<input type=numeric id="userGuess" min="1" max="10"/> 
+	</p>
+	<p style="color:053C48"> 
+		After you've entered your guess, click here to see if you were right! 
+		<input type="button" style="background-color:#98bf21" value="Check Your Guess" onclick="checkGuess(document.getElementById('userGuess').value)" />
+	</p>	
+	
+<script>
+function checkGuess
+{
+	if (secretNumber == answer)
+		<div style="border-style:groove; border-color:#98bf21" id="outMsgBox"> You got it </div>
+	else (secretNumber > answer)
+		<div style="border-style:groove; border-color:#98bf21" id="outMsgBox"> Your answer is too small </div>
+}
